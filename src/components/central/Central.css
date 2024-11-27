@@ -155,4 +155,57 @@
   .MainCentral span {
     font-size: 2rem;
   }
+  .marketing {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .marketing-content1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10vh;
+  }
+  .marketing-content1 span {
+    padding-top: 1vh;
+    font-size: 5.5rem;
+    white-space: wrap;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .marketing-content1 img {
+    margin-top: 6vh;
+    max-width: 240px;
+  }
+
+  .marketing-content1 .ev9 {
+    padding-top: 10vh;
+  }
+
+  .marketing-content2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10vh;
+  }
+
+  .marketing-content2 span {
+    font-size: 4.5rem;
+    white-space: wrap;
+    font-weight: bold;
+    text-align: center;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .marketing-content2 img {
+    margin-top: 30vh;
+    max-width: 440px;
+  }
 }

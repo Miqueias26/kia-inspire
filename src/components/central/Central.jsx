@@ -43,6 +43,7 @@ const Central = () => {
           </a>
         </div>
       </div>
+
       <div className="marketing-content2">
         <span> ADVENTURE DESIGN.</span>
         <ModelsMarketing img={KiaXceed} title="Kia Xceed" />
