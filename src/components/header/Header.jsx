@@ -11,7 +11,7 @@ const Header = () => {
   return (
     <>
       <header className="Header">
-        <video className="background-video" autoPlay muted>
+        <video className="background-video" autoPlay muted playsInline>
           <source src={backgroundVideo} type="video/webm" />
           Seu navegador não suporta este formato de vídeo.
         </video>
