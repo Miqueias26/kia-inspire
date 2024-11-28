@@ -1,0 +1,28 @@
+.nav {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand-content img {
+  transition: transform 0.3s ease-in-out;
+  text-align: center;
+  align-items: center;
+  align-self: center;
+}
+
+.brand-content img:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+  .custom-nav .nav-link {
+    color: black;
+  }
+
+  .menu-Smart1 {
+    background: linear-gradient(45deg, #e4e4e4, #ffff, #ffff);
+  }
+  .menu-Smart2 {
+    background: linear-gradient(45deg, #393939, #ffff, #cdcdcd);
+  }
+}
