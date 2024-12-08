@@ -13,11 +13,11 @@
 }
 
 .kia img {
-  width: 200px;
+  width: 130px;
 }
 .kia .moviment-text {
   color: white;
-  font-size: 0.7rem;
+  font-size: 0.5rem;
   font-style: italic;
 }
 
@@ -25,7 +25,7 @@
   border: none;
   font-family: "roboto", sans-serif;
   color: white;
-  font-size: 0.6rem;
+  font-size: 0.5rem;
 }
 .footer-content {
   display: flex;
@@ -36,7 +36,7 @@
 .footer-content p {
   font-family: "roboto", sans-serif;
   color: white;
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: 600;
 }
 
@@ -45,7 +45,7 @@
   border: none;
   font-family: "roboto", sans-serif;
   color: white;
-  font-size: 1rem;
+  font-size: 0.7rem;
   font-weight: 400;
 }
 .footer-content a:hover {
