@@ -34,7 +34,7 @@ const NavOf = () => {
                     <Nav.Link href="#action2">RESERVATION</Nav.Link>
                     <Nav.Link href="#action3">OFFER</Nav.Link>
                     <Nav.Link href="#action4">TEST DRIVE</Nav.Link>
-                    <Nav.Link href="#action4">CAR PLACE</Nav.Link>
+                    <Nav.Link href="#">CAR PLACE</Nav.Link>
                     <Nav.Link href="#action4">KIA CONECT</Nav.Link>
                   </Nav>
                 </Offcanvas.Body>
