@@ -14,8 +14,19 @@
   transform: scale(1.1);
 }
 
+.linksnav {
+  border: none;
+  font-size: 1rem;
+  color: white;
+}
+
 @media (max-width: 768px) {
   .custom-nav .nav-link {
+    color: black;
+  }
+  .linksnav {
+    border: none;
+    font-size: 1rem;
     color: black;
   }
 

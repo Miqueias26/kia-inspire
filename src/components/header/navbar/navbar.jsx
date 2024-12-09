@@ -1,6 +1,7 @@
 import { Container, Nav, Navbar, Offcanvas } from "react-bootstrap";
 import KiaLogo from "../../../assets/img/Logo.png";
 import "./Navbar.css";
+import { Link } from "react-router-dom";
 
 const NavOf = () => {
   return (
@@ -30,12 +31,31 @@ const NavOf = () => {
                 </Offcanvas.Header>
                 <Offcanvas.Body>
                   <Nav className="custom-nav justify-content-end flex-grow-1 pe-3">
-                    <Nav.Link href="#action1">MODELS</Nav.Link>
-                    <Nav.Link href="#action2">RESERVATION</Nav.Link>
-                    <Nav.Link href="#action3">OFFER</Nav.Link>
-                    <Nav.Link href="#action4">TEST DRIVE</Nav.Link>
-                    <Nav.Link href="#">CAR PLACE</Nav.Link>
-                    <Nav.Link href="#action4">KIA CONECT</Nav.Link>
+                    <Nav.Link>
+                      <Link to="/" className="linksnav">
+                        HOME
+                      </Link>
+                    </Nav.Link>
+                    <Nav.Link>
+                      <Link to="/" className="linksnav">
+                        RESERVATION
+                      </Link>
+                    </Nav.Link>
+                    <Nav.Link>
+                      <Link to="/" className="linksnav">
+                        OFFER
+                      </Link>
+                    </Nav.Link>
+                    <Nav.Link>
+                      <Link to="/createaccount" className="linksnav">
+                        CAR PLACE
+                      </Link>
+                    </Nav.Link>
+                    <Nav.Link>
+                      <Link to="/createaccount" className="linksnav">
+                        TEST DRIVE
+                      </Link>
+                    </Nav.Link>
                   </Nav>
                 </Offcanvas.Body>
               </Navbar.Offcanvas>

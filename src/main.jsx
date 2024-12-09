@@ -4,14 +4,14 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./index.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Home from "./router/home.jsx";
-import CreateAcoount from "./router/createaccount.jsx";
+import CreateAccount from "./router/createaccount.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <BrowserRouter basename="/kia-inspire/">
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/createaccount" element={<CreateAcoount />} />
+        <Route path="/createaccount" element={<CreateAccount />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>
