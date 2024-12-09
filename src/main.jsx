@@ -8,7 +8,7 @@ import CreateAcoount from "./router/createaccount.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/kia-inspire/">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/createaccount" element={<CreateAcoount />} />
