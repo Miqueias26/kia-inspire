@@ -1,4 +1,4 @@
-function CreateAccount() {
+function Account() {
   return (
     <div>
       <h1>Create Account</h1>
@@ -6,4 +6,4 @@ function CreateAccount() {
   );
 }
 
-export default CreateAccount;
+export default Account;

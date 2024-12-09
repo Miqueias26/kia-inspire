@@ -47,12 +47,12 @@ const NavOf = () => {
                       </Link>
                     </Nav.Link>
                     <Nav.Link>
-                      <Link to="/createaccount" className="linksnav">
+                      <Link to="/login" className="linksnav">
                         CAR PLACE
                       </Link>
                     </Nav.Link>
                     <Nav.Link>
-                      <Link to="/createaccount" className="linksnav">
+                      <Link to="/login" className="linksnav">
                         TEST DRIVE
                       </Link>
                     </Nav.Link>
