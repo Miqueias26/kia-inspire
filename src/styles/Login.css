@@ -104,6 +104,7 @@
   width: 45%;
   background: linear-gradient(45deg, #000000, #1d1d1d, #171717);
   border-radius: 0 15px 15px 0;
+  align-items: center;
 }
 
 .brand {
@@ -120,21 +121,35 @@
 
 @media (max-width: 768px) {
   .login {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .login-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background: linear-gradient(45deg, #7ea6f7, #f4f4f4, #ccb4a5);
+  }
+
+  .login-content {
+    max-width: 59vh;
+  }
+
+  .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    background: none;
   }
 
   .return {
     color: black;
     padding: none;
-    margin: 25vh 0 0 18vh;
+  }
+  .singuplink {
+    font-size: 1rem;
+  }
+
+  .right {
+    display: none;
   }
 }
