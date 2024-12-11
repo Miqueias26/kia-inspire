@@ -3,7 +3,7 @@ import Kialogos from "../assets/img/Logo.png";
 import { Link } from "react-router-dom";
 import { IoArrowBackCircleOutline } from "react-icons/io5";
 
-function CreateAccount() {
+function Login() {
   return (
     <div className="login">
       <div className="login-content">
@@ -18,12 +18,7 @@ function CreateAccount() {
           </div>
           <div className="form">
             <form action="">
-              <input
-                type="text"
-                name=""
-                id=""
-                placeholder="Username or email "
-              />
+              <input type="text" name="" id="" placeholder="Email " />
               <br />
               <input type="password" name="" id="" placeholder="Password " />
               <br />
@@ -36,8 +31,8 @@ function CreateAccount() {
           </div>
           <div className="create-account">
             <Link to="/createaccount" className="singuplink">
-              <span className="singuptext">{"Don't have a account?"}</span> Sing
-              up
+              <span className="singuptext">{"Don't have an account?"}</span>{" "}
+              Sing Up
             </Link>
           </div>
         </div>
@@ -53,4 +48,4 @@ function CreateAccount() {
   );
 }
 
-export default CreateAccount;
+export default Login;

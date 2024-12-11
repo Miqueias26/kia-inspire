@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-.login {
+.account {
   color: aliceblue;
   display: flex;
   justify-content: center;
@@ -13,7 +13,7 @@
   height: 100vh;
 }
 
-.login-content {
+.account-content {
   display: flex;
   justify-content: center;
   height: 80vh;
@@ -39,7 +39,7 @@
 .text {
   text-align: center;
   margin-bottom: 20px;
-  padding-top: 16vh;
+  padding-top: 110px;
 }
 .text h3 {
   font-size: 3rem;
@@ -73,30 +73,21 @@
   color: rgb(8, 8, 8);
   background: linear-gradient(45deg, #ef14d5, #abc1f0, #8234e9);
 }
-.forgot {
-  font-size: 12px;
-  color: rgb(8, 8, 8);
-  border: none;
-}
 
-.forgot:hover {
-  color: #ef14d5;
-}
-
-.create-account {
-  margin-top: 14vh;
+.loginlink {
+  margin-top: 17vh;
   text-align: center;
 }
 
-.singuptext {
+.singintext {
   color: #000000;
   padding-right: 5px;
 }
-.singuplink {
+.singinlink {
   border: none;
   color: rgb(207, 59, 180);
 }
-.singuplink:hover {
+.singinlink:hover {
   color: rgb(244, 125, 46);
 }
 
@@ -120,15 +111,26 @@
 }
 
 @media (max-width: 768px) {
-  .login {
+  .account {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background: linear-gradient(45deg, #7ea6f7, #f4f4f4, #ccb4a5);
   }
+  .return {
+    padding-bottom: 15vh;
+    padding-right: 2vh;
+  }
+  .text {
+    padding: 1vh 0;
+  }
 
-  .login-content {
+  .text h3 {
+    font-size: 2.5rem;
+  }
+
+  .account-content {
     max-width: 50vh;
   }
 
@@ -137,7 +139,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 80%;
+    width: 100%;
     background: none;
   }
 
@@ -145,7 +147,7 @@
     color: black;
     padding: none;
   }
-  .singuplink {
+  .singinlink {
     font-size: 1rem;
   }
 
