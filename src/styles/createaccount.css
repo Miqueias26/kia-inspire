@@ -119,11 +119,12 @@
     background: linear-gradient(45deg, #7ea6f7, #f4f4f4, #ccb4a5);
   }
   .return {
-    padding-bottom: 15vh;
+    padding-bottom: 3vh;
     padding-right: 2vh;
   }
   .text {
-    padding: 1vh 0;
+    padding: 3vh;
+    margin: 0;
   }
 
   .text h3 {
